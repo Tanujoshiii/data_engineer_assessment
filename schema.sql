@@ -41,3 +41,4 @@ CREATE TABLE hoa (
     hoa_name VARCHAR(255),
     FOREIGN KEY(property_id) REFERENCES properties(property_id)
 );
+
